@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         //That's all but the text is static, so we need to find a way to modify it using the application
         final TextView textView = findViewById(R.id.textView);
-        textView.setText("I don't like the hello world");
+        textView.setText("I don't like the hello world application, it's too simple");
         //now go to draw a button, set an ID to it, and use it.
         Button button = findViewById(R.id.button);
 
@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         */
         //using lambdas, after it try using System.lineseparator to see what happens
         button.setOnClickListener( view -> {
-            textView.setText("Don't hit me hard.\nplease forgive me");
+            textView.setText("You've clicked the button \n welcome to Android");
             //now test the strings.xml
             //2nd String result = getString(R.string.test);
             //textView.setText(result);
