@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">HelloWorld</string>
+
+    <!-- try to group these names per screen -->
+
+    <!--  main activity -->
+    <string name="test">testing my string file</string>
+
+    <!-- with arguments -->
+    <string name="welcome">%s - welcome my friend</string>
+</resources>
